@@ -8,14 +8,17 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Hack:size=12" };
 static const char dmenufont[]       = "Hack:size=12";
-static const char col_main_bg[]     = "";
-static const char col_unsel_border[]= "";
-static const char col_gray3[]       = "";
-static const char col_gray4[]       = "";
-static const char col_main[]        = "";
-
-/* set the colors to the pywal16 theme */
-#include "/home/alemusu/.cache/wal/colors-wal-dwm.h"
+static const char col_main_bg[]     = "#000000";
+static const char col_unsel_border[]= "#444444";
+static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray4[]       = "#eeeeee";
+static const char col_main[]        = "#b2b2b2"; //white
+//static const char col_main[]        = "#d82424"; //red
+static const char *colors[][3]      = {
+	/*               fg         bg         border   */
+	[SchemeNorm] = { col_gray3, col_main_bg, col_unsel_border },
+	[SchemeSel]  = { col_gray4, col_main,  col_main  },
+};
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
