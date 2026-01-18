@@ -1,0 +1,7 @@
+- keymaps para librewolf y file explorer
+- rice menu
+- cambiar los numeros de waybar por otra cosa
+- si la batería baja del 25% que se ponga rojo y si sube de 85 verde
+- file explorer bonito
+- configurar bluetooth, mutearme, menu wifi, modo ahorro
+- usar algun gadget que muestre el clima o algo chulo sobre el fondo de pantalla
